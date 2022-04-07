@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.boot-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#boot-progress-bar {
+    background-color: #232323;
+    border:  1px solid #363636;
+    border-radius: 5px;
+    width: 300px;
+    height: 7px;
+    margin-top: 80px;
+}
+
+#boot-progress-bar-color {
+    width: 0%;
+    height: 100%;
+    background-color: #C4C4C3;
+    border-radius: 50px 0px 0px 50px;
+}
+
+
+.mac-home-view {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('mac-os-background-image2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.mac-bottom-bar {
+    width: 90%;
+    height: 75px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.292);
+    border: 1px solid rgba(255, 255, 255, 0.091);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.mac-top-bar {
+    width: 100%;
+    height: 28px;
+    background-color: #0b477197;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.mac-top-bar-left {
+    display: flex;
+    align-items: center;
+}
+
+.mac-top-bar-apple-icon {
+    margin-left: 40px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.443));
+}
+
+.mac-top-bar-menu {
+    color: #fff;
+    margin-right: 30px;
+}
+
+#mac-top-bar-menu-time {
+    margin-right: 10px!important;
+}
